@@ -12,7 +12,7 @@
 }
   /* shutdown button */
   .appmenu-sidebar .appmenu-system-button-shutdown {
-    background-image: url("/home/chris/.icons/Chicago95/actions/24/system-shutdown.png");
+    background-image: url("../../../.icons/Chicago95/actions/24/system-shutdown.png");
     padding: 10px;
   }
   .appmenu-sidebar .appmenu-system-button-shutdown StIcon {
@@ -24,7 +24,7 @@
 
   /* log out button */
   .appmenu-sidebar .appmenu-system-button-logout {
-    background-image: url("/home/chris/.icons/Chicago95/actions/24/xfsm-switch-user.png");
+    background-image: url("../../../.icons/Chicago95/actions/24/xfsm-switch-user.png");
     padding: 10px; 
   }
   .appmenu-sidebar .appmenu-system-button-logout StIcon {
@@ -36,7 +36,7 @@
 
   /* lock button */
   .appmenu-sidebar .appmenu-system-button-lock {
-    background-image: url("/home/chris/.icons/Chicago95/actions/24/system-log-out.png");
+    background-image: url("../../../.icons/Chicago95/actions/24/system-log-out.png");
     padding: 10px;
   }
   .appmenu-sidebar .appmenu-system-button-lock StIcon {
