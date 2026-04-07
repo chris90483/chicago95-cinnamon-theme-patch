@@ -1,0 +1,76 @@
+/* Paste this in ~/.themes/Chicago95/cinnamon.cinnamon.css */
+/* 
+  CINNAMON MENU 
+*/
+/* left side with avatar, some links, and system options (logout, shutdown etc) */
+.appmenu-sidebar {
+  padding: 10px 0px;
+  border-radius: 16px 0 0 16px;
+  border-right-width: 1px;
+  border-color: #333333;
+  color: black;
+}
+  /* shutdown button */
+  .appmenu-sidebar .appmenu-system-button-shutdown {
+    background-image: url("/home/chris/.icons/Chicago95/actions/24/system-shutdown.png");
+    padding: 10px;
+  }
+  .appmenu-sidebar .appmenu-system-button-shutdown StIcon {
+    color: rgba(0,0,0,0);
+  }
+  .appmenu-sidebar .appmenu-system-button-shutdown:hover {
+    background-color: #0000A8; 
+  }
+
+  /* log out button */
+  .appmenu-sidebar .appmenu-system-button-logout {
+    background-image: url("/home/chris/.icons/Chicago95/actions/24/xfsm-switch-user.png");
+    padding: 10px; 
+  }
+  .appmenu-sidebar .appmenu-system-button-logout StIcon {
+    color: rgba(0,0,0,0);  
+  }
+  .appmenu-sidebar .appmenu-system-button-logout:hover {
+    background-color: #0000A8; 
+  }
+
+  /* lock button */
+  .appmenu-sidebar .appmenu-system-button-lock {
+    background-image: url("/home/chris/.icons/Chicago95/actions/24/system-log-out.png");
+    padding: 10px;
+  }
+  .appmenu-sidebar .appmenu-system-button-lock StIcon {
+    color: rgba(0,0,0,0);  
+  }
+  .appmenu-sidebar .appmenu-system-button-lock:hover {
+    background-color: #0000A8;
+  }
+  
+/* categories */
+.appmenu-category-button-selected {
+  background-color: #0000A8; 
+  color: white;
+  padding: 6px;
+}
+.appmenu-category-button StIcon, .appmenu-category-button-selected StIcon, .appmenu-category-button-greyed StIcon {
+  color: rgba(0,0,0,0);
+  width: 0;
+}
+
+/* right side, application list (after searching or selecting a category) */
+.appmenu-application-button-selected {
+  background-color: #0000A8; 
+  color: white;
+  padding: 6px;
+}
+.appmenu-application-button-description {
+  color: gray;
+}
+.appmenu-application-button-selected .appmenu-application-button-description {
+  color: lightgray;
+  padding-left: 4px;
+}
+.appmenu-application-button-selected .appmenu-application-button-label {
+  color: white;
+  padding-left: 4px;
+}
