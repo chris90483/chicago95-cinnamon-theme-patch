@@ -1,8 +1,13 @@
-/* Paste this in ~/.themes/Chicago95/cinnamon.cinnamon.css */
+/* append this to ~/.themes/Chicago95/cinnamon.cinnamon.css */
 /* 
   CINNAMON MENU 
 */
 /* left side with avatar, some links, and system options (logout, shutdown etc) */
+stage {
+  font-family: "MS Console" "Lucida Console", "Courier New", monospace;
+  font-size: 10pt; 
+}
+
 .appmenu-sidebar {
   padding: 10px 0px;
   border-radius: 16px 0 0 16px;
@@ -52,7 +57,7 @@
   color: white;
   padding: 6px;
 }
-.appmenu-category-button StIcon, .appmenu-category-button-selected StIcon, .appmenu-category-button-greyed StIcon {
+.appmenu-category-button StIcon, .appmenu-category-button-selected StIcon, .appmenu-category-button-greyed StIcon {    
   color: rgba(0,0,0,0);
   width: 0;
 }
